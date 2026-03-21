@@ -1,0 +1,35 @@
+{
+  "pr_auc": {
+    "supcon": {
+      "mean": 0.9917,
+      "std": 0.001
+    },
+    "mlp": {
+      "mean": 0.9939,
+      "std": 0.0003
+    },
+    "baseline": 0.8962
+  },
+  "hn5_auroc": {
+    "supcon": {
+      "mean": 0.8972,
+      "std": 0.0242
+    },
+    "mlp": {
+      "mean": 0.9207,
+      "std": 0.0072
+    },
+    "baseline": 0.5689
+  },
+  "hn10_auroc": {
+    "supcon": {
+      "mean": 0.8877,
+      "std": 0.0085
+    },
+    "mlp": {
+      "mean": 0.8978,
+      "std": 0.0073
+    },
+    "baseline": 0.6343
+  }
+}

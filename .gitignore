@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Generated data (reproduce with: python synthetic_data_generator.py --config config.yaml)
+data/
+
+# Training checkpoints (large; primary SupCon checkpoints committed under checkpoints/)
+runs/
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
