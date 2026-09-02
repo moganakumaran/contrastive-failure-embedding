@@ -2,6 +2,8 @@
 
 Supplemental code for the manuscript submitted to *Applied Sciences* (MDPI).
 
+**Author portfolio:** https://moganakumaran.github.io/portfolio/
+
 ---
 
 ## Repository Structure
@@ -41,7 +43,6 @@ Supplemental code for the manuscript submitted to *Applied Sciences* (MDPI).
 │   ├── fig08_ood_saturation.svg
 │   ├── fig09_hard_negative_auroc.svg
 │   ├── fig10_perclass_f1.svg
-│   ├── fig11_umap_projection.svg
 │   └── descriptions.md
 │
 └── docs/
@@ -142,6 +143,7 @@ for seed in 0 1 2 3 4; do
     --output_dir runs/nt_xent_seed${seed} --seed ${seed}
   python train.py --config config.yaml --loss triplet \
     --output_dir runs/triplet_seed${seed} --seed ${seed}
+done
 done
 ```
 
